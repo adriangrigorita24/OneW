@@ -1,14 +1,5 @@
-///<reference path="../jquery/jquery.d.ts" />
-
-interface jQTabdropStatic {
-    defaults?: any;
-    Constructor?: any;
-    (): void;
-    (option: any): void;
-}
-
 interface JQueryStatic {
-    tabdrop?: jQTabdropStatic;
+    tabdrop?: any;
 }
 
 interface JQuery {
