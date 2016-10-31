@@ -1,3 +1,5 @@
+///<reference path="../jquery/jquery.d.ts" />
+
 interface jQTabdropStatic {
     defaults?: any;
     Constructor?: any;
