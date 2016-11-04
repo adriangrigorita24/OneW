@@ -1,9 +1,9 @@
 interface BlockUI {
     init(): void;
-    block(el: HTMLElement, size: number): void;
+    block(el: HTMLElement, size?: number): void;
     unblock(el: HTMLElement): void;
-    getElement(selector: string): HTMLElement|HTMLElement[];
-    findElement(selector: string): HTMLElement|HTMLElement[];
+    getElement(selector: string): any;
+    findElement(selector: string): any;
 }
 
 declare var BlockUI: BlockUI;
