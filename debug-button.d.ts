@@ -1,7 +1,7 @@
 interface Tabbable {
     init(): void;
-    clipboard(): void;
-    download(): void;
+    clipboard(selector:string, text:any): boolean;
+    download(data:any, fileName:string, mimeType:string): boolean;
 }
 
 declare var DebugButton: DebugButton;
