@@ -1,10 +1,10 @@
-interface MDB {
+interface OnewMDB {
     init(): void;
     datePicker(): void;
 }
 
-declare let MBD: MDB;
+declare let OnewMDB: OnewMDB;
 
-declare module "mdb" {
-    export = MDB;
+declare module "onewmdb" {
+    export = OnewMDB;
 }
