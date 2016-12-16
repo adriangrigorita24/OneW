@@ -16,9 +16,9 @@ interface OnewMDB {
     sideNavInit(options?: any): void;
     sideNavAction(action?: any): void;
 
-    materialChipInit(data: any[], selector?: string): void;
-    materialChipAction(action: string): void;
-    materialChipPlaceholder(placeholder: string, secondaryPlaceholder: string): void;
+    tagChipInit(data: any[], selector?: string): void;
+    tagChipAction(action: string): void;
+    tagChipPlaceholder(placeholder: string, secondaryPlaceholder: string): void;
 
     characterCounter(): void;
 
