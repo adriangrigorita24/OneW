@@ -6,7 +6,7 @@ interface BlockUI {
     findElement(selector: string): any;
 }
 
-declare var BlockUI: BlockUI;
+declare let BlockUI: BlockUI;
 
 declare module "blockui" {
     export = BlockUI;
