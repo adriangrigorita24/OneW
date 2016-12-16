@@ -4,29 +4,29 @@ interface OnewMDB {
     datePicker(options?: any): void;
     timePicker(options?: any): void;
 
-    modalInit(options?: any):void;
-    modalAction(action):void;
+    modalInit(options?: any): void;
+    modalAction(action: string): void;
 
-    tooltipInit(options?: any):void;
-    tooltipAction(action, selector?: string):void;
+    tooltipInit(options?: any): void;
+    tooltipAction(action: string, selector?: string): void;
 
-    selectInit(selector?: string):void;
-    selectDestroy(selector?: string):void;
+    selectInit(selector?: string): void;
+    selectDestroy(selector?: string): void;
 
-    sideNavInit(options?: any):void;
-    sideNavAction(action?: any):void;
+    sideNavInit(options?: any): void;
+    sideNavAction(action?: any): void;
 
-    materialChipInit(data, selector?: string):void;
-    materialChipAction(action):void;
-    materialChipPlaceholder(placeholder, secondaryPlaceholder):void;
+    materialChipInit(data: any[], selector?: string): void;
+    materialChipAction(action: string): void;
+    materialChipPlaceholder(placeholder: string, secondaryPlaceholder: string): void;
 
-    characterCounter():void;
+    characterCounter(): void;
 
-    dropdownInit(action?: string):void;
+    dropdownInit(action?: string): void;
 
-    tabsInit(action):void;
+    tabsInit(action: string): void;
 
-    lightbox():void;
+    lightbox(): void;
 }
 
 declare let OnewMDB: OnewMDB;
