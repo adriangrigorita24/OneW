@@ -2,7 +2,7 @@ interface OnewMDB {
     init(): void;
     datePicker(): void;
     materialSelect():void;
-    characterCounter():void;
+    countCharacters():void;
 }
 
 declare let OnewMDB: OnewMDB;
