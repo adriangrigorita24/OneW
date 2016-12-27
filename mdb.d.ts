@@ -27,6 +27,8 @@ interface OnewMDB {
     tabsInit(action: string): void;
 
     lightbox(): void;
+
+    collapse(options?: any): void;
 }
 
 declare let OnewMDB: OnewMDB;
