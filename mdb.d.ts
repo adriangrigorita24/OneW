@@ -29,6 +29,8 @@ interface OnewMDB {
     lightbox(): void;
 
     collapse(options?: any): void;
+
+    popover(options?: any): void;
 }
 
 declare let OnewMDB: OnewMDB;
