@@ -23,7 +23,7 @@ interface OnewMDB {
 
     dropdown(action?: string): void;
 
-    tabs(action: string): void;
+    tabs(action?: string): void;
 
     lightbox(): void;
 
