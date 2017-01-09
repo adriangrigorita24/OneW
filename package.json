@@ -1,0 +1,13 @@
+{
+  "name": "OneW-typings",
+  "version": "1.0.0",
+  "homepage": "https://github.com/avramcosmin/OneW",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avramcosmin/OneW.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6.9.1"
+  }
+}
