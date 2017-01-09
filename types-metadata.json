@@ -1,0 +1,18 @@
+{
+    "libraryDependencies": [],
+    "moduleDependencies": [],
+    "libraryName": "OneW-typings",
+    "typingsPackageName": "onew",
+    "projectName": "https://www.github.com/avramcosmin/OneW",
+    "sourceRepoURL": "https://www.github.com/avramcosmin/OneW",
+    "sourceBranch": "master",
+    "globals": [],
+    "declaredModules": [
+        "onew",
+        "onew\\onewmdb"
+    ],
+    "files": [
+        "onewmdb.d.ts",
+        "index.d.ts"
+    ]
+}
